@@ -1,0 +1,51 @@
+body {
+    margin: 30px;
+    padding: 20px;
+    border-style: solid;
+    background-color: darkmagenta;
+    background-repeat: no-repeat;
+    margin-left: 180px; /* Same as the width of the sidenav */
+    margin-right: 180px;
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+header {
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    background-color: lightcoral;
+  } 
+nav {
+   line-height: 30px;
+   background: lightgrey;
+   padding: 5px;
+   color: red;
+   text-align: center;
+}
+
+
+
+section {
+   padding: 160px;
+   background-color: lightblue;
+   color: red;
+}
+
+footer {
+   background-color: darkblue;
+   color: red;
+   text-align: center;
+   padding: 50px;
+}
+
+#menu{
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: teal;
+  
+    padding-top: 20px;
+}
